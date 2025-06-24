@@ -5,6 +5,7 @@ import Services from './pages/Services';
 import FindUs from './pages/FindUs';
 import Contact from './pages/Contact';
 import Reviews from './pages/Reviews';
+import MeetUs from './pages/MeetUs';
 
 function HomeFadeInWrapper() {
   const location = useLocation();
@@ -16,27 +17,40 @@ function HomeFadeInWrapper() {
       <div className="mx-auto max-w-7xl py-12 sm:py-16 lg:py-20 flex flex-col lg:flex-row items-center gap-16">
         {/* Left: Main Content */}
         <div className="flex-1 max-w-xl w-full text-center">
-          <h1 className="text-6xl sm:text-8xl font-bold tracking-tight text-balance text-gray-900">Elegant. Stylish. Professional.</h1>
-          <p className="mt-10 text-2xl sm:text-3xl font-medium text-pretty text-gray-500">Haircuts made simple. Book an appointment today.</p>
+          <h1 className="text-6xl sm:text-8xl font-bold tracking-tight text-balance text-gray-900 font-serif">Classic Cuts. Timeless Style.</h1>
+          <p className="mt-10 text-2xl sm:text-3xl font-medium text-pretty text-gray-500">Where you're not just a customer. You're family.</p>
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
-            <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto button-classic px-5 py-2.5 text-sm text-center">Book an appointment today</a>
-            <Link to="/services" className="w-full sm:w-auto button-outline-classic px-5 py-2.5 text-sm text-center ml-0 sm:ml-2">View Services <span aria-hidden="true">→</span></Link>
+            <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto button-classic px-5 py-2.5 text-sm text-center hover-tilt">Book an appointment today</a>
+            <Link to="/services" className="w-full sm:w-auto button-outline-classic px-5 py-2.5 text-sm text-center ml-0 sm:ml-2 hover-tilt">View Services <span aria-hidden="true">→</span></Link>
+          </div>
+          {/* Section Divider SVG */}
+          <div className="section-divider">
+            <svg width="180" height="24" viewBox="0 0 180 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g opacity="0.5">
+                <rect x="0" y="10" width="24" height="4" rx="2" fill="#b94a4a"/>
+                <rect x="31" y="10" width="24" height="4" rx="2" fill="#4a6fa5"/>
+                <rect x="62" y="10" width="24" height="4" rx="2" fill="#b94a4a"/>
+                <rect x="93" y="10" width="24" height="4" rx="2" fill="#4a6fa5"/>
+                <rect x="124" y="10" width="24" height="4" rx="2" fill="#b94a4a"/>
+                <rect x="155" y="10" width="24" height="4" rx="2" fill="#4a6fa5"/>
+              </g>
+            </svg>
           </div>
         </div>
         {/* Right: 2x2 Image Grid */}
         <div className="flex-1 flex items-center justify-center">
           <div className="grid grid-cols-2 grid-rows-2 gap-6 w-96 h-96 md:w-[32rem] md:h-[32rem]">
             <div className="w-full h-full">
-              <img src="/haircut1.jpg" alt="Haircut 1" className="w-full h-full object-cover rounded-2xl shadow-lg" />
+              <img src="/haircut1.jpg" alt="Haircut 1" className="w-full h-full object-cover rounded-2xl shadow-lg hover-tilt" />
             </div>
             <div className="w-full h-full">
-              <img src="/haircut2.jpeg" alt="Haircut 2" className="w-full h-full object-cover rounded-2xl shadow-lg" />
+              <img src="/haircut2.jpeg" alt="Haircut 2" className="w-full h-full object-cover rounded-2xl shadow-lg hover-tilt" />
             </div>
             <div className="w-full h-full">
-              <img src="/haircut3.jpeg" alt="Haircut 3" className="w-full h-full object-cover rounded-2xl shadow-lg" />
+              <img src="/haircut3.jpeg" alt="Haircut 3" className="w-full h-full object-cover rounded-2xl shadow-lg hover-tilt" />
             </div>
             <div className="w-full h-full">
-              <img src="/haircut4.jpeg" alt="Haircut 4" className="w-full h-full object-cover rounded-2xl shadow-lg" />
+              <img src="/haircut4.jpeg" alt="Haircut 4" className="w-full h-full object-cover rounded-2xl shadow-lg hover-tilt" />
             </div>
           </div>
         </div>
@@ -79,6 +93,7 @@ function App() {
               <Link to="/find-us" className="text-sm/6 header-link-classic">Find Us</Link>
               <Link to="/contact" className="text-sm/6 header-link-classic">Contact</Link>
               <Link to="/reviews" className="text-sm/6 header-link-classic">Reviews</Link>
+              <Link to="/meet-us" className="text-sm/6 header-link-classic">Meet Us</Link>
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             </div>
@@ -129,6 +144,7 @@ function App() {
           <Route path="/find-us" element={<FindUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/reviews" element={<Reviews />} />
+          <Route path="/meet-us" element={<MeetUs />} />
         </Routes>
       </div>
     </Router>

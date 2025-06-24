@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+/* Minimalist header and large image styles */
+.header-nav-link {
+  @apply text-gray-700 hover:text-blue-600 font-medium;
+}
+.header-title {
+  @apply text-3xl font-bold text-gray-800;
+}
+.header-contact {
+  @apply text-blue-600 hover:text-blue-800 font-semibold border border-blue-600 px-4 py-1 rounded transition;
+}
+
+.home-images {
+  @apply w-full flex justify-center items-center my-12 space-x-8;
+}
+.home-image {
+  @apply rounded-lg shadow-lg max-h-[32rem] object-cover w-1/4 min-w-[250px];
+}

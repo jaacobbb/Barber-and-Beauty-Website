@@ -23,7 +23,7 @@ function FindUs() {
           />
         </div>
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base/7 font-semibold text-indigo-600">Find Us</h2>
+          <h2 className="text-base/7 font-semibold accent-underline" style={{ color: 'var(--muted-blue)' }}>Find Us</h2>
           <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">Easily accessible, just as haircuts should be.</p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">Visit us in the heart of Gaithersburg.</p>
@@ -31,7 +31,7 @@ function FindUs() {
         <div className="mx-auto mt-16 grid max-w-7xl grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Location Information */}
           <div className="space-y-8">
-            <div>
+            <div className="accent-left-bar">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Location</h2>
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="space-y-4">
@@ -51,7 +51,7 @@ function FindUs() {
               </div>
             </div>
 
-            <div>
+            <div className="accent-left-bar">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Hours</h2>
               <div className="bg-gray-50 rounded-lg p-6">
                 <div className="space-y-3">
@@ -71,7 +71,7 @@ function FindUs() {
               </div>
             </div>
 
-            <div>
+            <div className="accent-left-bar">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Parking</h2>
               <div className="bg-gray-50 rounded-lg p-6">
                 <p className="text-gray-600">
@@ -80,7 +80,7 @@ function FindUs() {
               </div>
             </div>
 
-            <div>
+            <div className="accent-left-bar">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Directions</h2>
               <div className="bg-gray-50 rounded-lg p-6">
                 <p className="text-gray-600 mb-4">

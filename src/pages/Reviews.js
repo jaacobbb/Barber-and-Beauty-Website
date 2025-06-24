@@ -93,7 +93,7 @@ function Reviews() {
           />
         </div>
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base/7 font-semibold text-indigo-600">Reviews</h2>
+          <h2 className="text-base/7 font-semibold accent-underline" style={{ color: 'var(--muted-blue)' }}>Reviews</h2>
           <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">See what our customers are saying about us</p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">Read authentic reviews from our satisfied customers and share your own experience with us.</p>
@@ -126,7 +126,7 @@ function Reviews() {
         </div>
 
         {/* Review Form */}
-        <div className="mx-auto mt-16 max-w-2xl">
+        <div className="mx-auto mt-16 max-w-2xl accent-left-bar">
           <div className="bg-gray-50 rounded-lg p-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Leave a Review</h2>
             <form onSubmit={handleReviewSubmit} className="space-y-6">

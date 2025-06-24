@@ -13,12 +13,12 @@ function Services() {
           />
         </div>
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base/7 font-semibold text-indigo-600">Services</h2>
+          <h2 className="text-base/7 font-semibold accent-underline" style={{ color: 'var(--muted-blue)' }}>Services</h2>
           <p className="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">We have something for everyone.</p>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">Whether it's a small touch up or total makeover, we've got you covered.</p>
         <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-8 lg:max-w-4xl lg:grid-cols-2 lg:gap-x-8">
-          <div className="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:p-10">
+          <div className="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:p-10 accent-left-bar">
             <h3 id="tier-hobby" className="text-base/7 font-semibold text-indigo-600">Men's Haircut</h3>
             <p className="mt-4 flex items-baseline gap-x-2">
               <span className="text-5xl font-semibold tracking-tight text-gray-900">$15</span>
@@ -52,7 +52,7 @@ function Services() {
             </ul>
             <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-4 py-3 sm:px-3.5 sm:py-2.5 text-center text-sm font-semibold text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:mt-10">Book an Appointment</a>
           </div>
-          <div className="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:p-10">
+          <div className="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:p-10 accent-left-bar">
             <h3 id="tier-hobby" className="text-base/7 font-semibold text-indigo-600">Women's Haircut</h3>
             <p className="mt-4 flex items-baseline gap-x-2">
               <span className="text-5xl font-semibold tracking-tight text-gray-900">$20</span>

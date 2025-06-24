@@ -19,8 +19,8 @@ function HomeFadeInWrapper() {
           <h1 className="text-6xl sm:text-8xl font-bold tracking-tight text-balance text-gray-900">Elegant. Stylish. Professional.</h1>
           <p className="mt-10 text-2xl sm:text-3xl font-medium text-pretty text-gray-500">Haircuts made simple. Book an appointment today.</p>
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
-            <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-center">Book an appointment today</a>
-            <Link to="/services" className="w-full sm:w-auto text-sm/6 font-semibold text-gray-900 text-center">View Services <span aria-hidden="true">→</span></Link>
+            <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto button-classic px-5 py-2.5 text-sm text-center">Book an appointment today</a>
+            <Link to="/services" className="w-full sm:w-auto button-outline-classic px-5 py-2.5 text-sm text-center ml-0 sm:ml-2">View Services <span aria-hidden="true">→</span></Link>
           </div>
         </div>
         {/* Right: 2x2 Image Grid */}
@@ -53,8 +53,8 @@ function App() {
 
   return (
     <Router>
-      <div className="bg-white">
-        <header className="fixed inset-x-0 top-0 z-50 bg-white shadow-md">
+      <div className="bg-texture min-h-screen">
+        <header className="fixed inset-x-0 top-0 z-50 header-classic shadow-md">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">
               <Link to="/" className="-m-1.5 p-1.5">
@@ -65,7 +65,7 @@ function App() {
             <div className="flex lg:hidden">
               <button 
                 type="button" 
-                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+                className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
                 onClick={() => setMobileMenuOpen(true)}
               >
                 <span className="sr-only">Open main menu</span>
@@ -75,10 +75,10 @@ function App() {
               </button>
             </div>
             <div className="hidden lg:flex lg:gap-x-12">
-              <Link to="/services" className="text-sm/6 font-semibold text-gray-900">Services</Link>
-              <Link to="/find-us" className="text-sm/6 font-semibold text-gray-900">Find Us</Link>
-              <Link to="/contact" className="text-sm/6 font-semibold text-gray-900">Contact</Link>
-              <Link to="/reviews" className="text-sm/6 font-semibold text-gray-900">Reviews</Link>
+              <Link to="/services" className="text-sm/6 header-link-classic">Services</Link>
+              <Link to="/find-us" className="text-sm/6 header-link-classic">Find Us</Link>
+              <Link to="/contact" className="text-sm/6 header-link-classic">Contact</Link>
+              <Link to="/reviews" className="text-sm/6 header-link-classic">Reviews</Link>
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             </div>

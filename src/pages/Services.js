@@ -49,7 +49,7 @@ function Services() {
               Stylish
             </li>
           </ul>
-          <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:mt-10">Book an Appointment</a>
+          <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-4 py-3 sm:px-3.5 sm:py-2.5 text-center text-sm font-semibold text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:mt-10">Book an Appointment</a>
         </div>
         <div className="rounded-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:p-10">
           <h3 id="tier-hobby" className="text-base/7 font-semibold text-indigo-600">Women's Haircut</h3>
@@ -83,7 +83,7 @@ function Services() {
               Stylish
             </li>
           </ul>
-          <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:mt-10">Book an Appointment</a>
+          <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" aria-describedby="tier-hobby" className="mt-8 block rounded-md px-4 py-3 sm:px-3.5 sm:py-2.5 text-center text-sm font-semibold text-indigo-600 ring-1 ring-indigo-200 ring-inset hover:ring-indigo-300 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 sm:mt-10">Book an Appointment</a>
         </div>
       </div>
     </div>

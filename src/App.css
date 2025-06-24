@@ -37,6 +37,21 @@
   }
 }
 
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-down {
+  animation: fadeInDown 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 /* Minimalist header and large image styles */
 .header-nav-link {
   @apply text-gray-700 hover:text-blue-600 font-medium;

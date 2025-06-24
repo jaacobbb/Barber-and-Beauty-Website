@@ -74,61 +74,68 @@
   --muted-red: #b94a4a;
   --muted-blue: #4a6fa5;
   --muted-white: #f7f7f7;
+  --tan: #ede5dd;
+  --tan-dark: #e5d3b3;
+  --brown: #4a3b2c;
+  --header-brown: #8c6b4f;
+  --maroon: #8c2f39;
 }
 
-.bg-texture {
-  background-color: var(--muted-white);
-  background-image: url('data:image/svg+xml;utf8,<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="60" height="60" fill="%23f7f7f7"/><path d="M0 59h60v1H0zM59 0v60h1V0z" fill="%23e5e5e5" fill-opacity="0.4"/><path d="M0 0l60 60M60 0L0 60" stroke="%23d1d5db" stroke-width="1" stroke-opacity="0.25"/></svg>');
-  background-size: 60px 60px;
+.bg-texture, .bg-tan {
+  background-color: var(--tan-dark);
+}
+
+.text-brown {
+  color: var(--brown);
 }
 
 .header-classic {
-  background: #e5e7eb;
-  color: #222;
+  background: var(--header-brown);
+  color: #fff;
 }
 
 .header-link-classic {
-  color: var(--muted-blue);
+  color: #fff;
   font-weight: 600;
   transition: color 0.2s;
 }
 .header-link-classic:hover {
-  color: var(--muted-red);
+  color: var(--maroon);
 }
 
 .button-classic {
-  background-color: var(--muted-blue);
-  color: white;
+  background-color: var(--maroon);
+  color: #fff;
   border-radius: 0.5rem;
   font-weight: 600;
   box-shadow: 0 2px 8px 0 rgba(74, 111, 165, 0.08);
   transition: background 0.2s;
 }
 .button-classic:hover {
-  background-color: var(--muted-red);
+  background-color: var(--brown);
 }
 
 .button-outline-classic {
-  border: 2px solid var(--muted-blue);
-  color: var(--muted-blue);
+  border: 2px solid var(--maroon);
+  color: var(--maroon);
   background: transparent;
   border-radius: 0.5rem;
   font-weight: 600;
   transition: background 0.2s, color 0.2s;
 }
 .button-outline-classic:hover {
-  background: var(--muted-blue);
-  color: white;
+  background: var(--maroon);
+  color: #fff;
 }
 
 .accent-underline {
   display: inline-block;
-  border-bottom: 3px solid var(--muted-red);
+  border-bottom: 3px solid var(--maroon);
   padding-bottom: 0.2em;
 }
 
 .accent-left-bar {
-  border-left: 5px solid var(--muted-red);
+  border-left: 5px solid var(--maroon);
   padding-left: 1.25rem;
 }
 

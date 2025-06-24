@@ -18,7 +18,7 @@ function HomeFadeInWrapper() {
         {/* Left: Main Content */}
         <div className="flex-1 max-w-xl w-full text-center">
           <h1 className="text-6xl sm:text-8xl font-bold tracking-tight text-balance text-gray-900 font-serif">Classic Cuts. Timeless Style.</h1>
-          <p className="mt-10 text-2xl sm:text-3xl font-medium text-pretty text-gray-500">Where you're not just a customer. You're family.</p>
+          <p className="mt-10 text-2xl sm:text-3xl font-medium text-pretty" style={{ color: 'var(--maroon)' }}>Where you're not just a customer. You're family.</p>
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
             <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto button-classic px-5 py-2.5 text-sm text-center hover-tilt">Book an appointment today</a>
             <Link to="/services" className="w-full sm:w-auto button-outline-classic px-5 py-2.5 text-sm text-center ml-0 sm:ml-2 hover-tilt">View Services <span aria-hidden="true">→</span></Link>
@@ -67,7 +67,7 @@ function App() {
 
   return (
     <Router>
-      <div className="bg-texture min-h-screen">
+      <div className="bg-tan min-h-screen">
         <header className="fixed inset-x-0 top-0 z-50 header-classic shadow-md">
           <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
             <div className="flex lg:flex-1">

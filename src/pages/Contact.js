@@ -144,7 +144,7 @@ function Contact() {
                     </div>
                     <div className="ml-4">
                       <h3 className="text-lg font-medium text-gray-900">Phone</h3>
-                      <a href="tel:555-123-4567" className="" style={{ color: 'var(--maroon)' }}>(555) 123-4567</a>
+                      <a href="tel:+13019263638" className="bg-green-600 text-white py-3 px-6 rounded-md hover:bg-green-700 transition" style={{ color: 'var(--maroon)' }}>(301) 926-3638</a>
                     </div>
                   </div>
 

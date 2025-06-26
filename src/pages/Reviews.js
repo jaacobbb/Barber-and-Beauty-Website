@@ -109,9 +109,9 @@ function Reviews() {
           </div>
 
           {/* Reviews Grid */}
-          <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+          <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-y-8 sm:mt-20 lg:max-w-4xl lg:grid-cols-2 lg:gap-x-8 lg:gap-y-8">
             {testimonials.map((review) => (
-              <div key={review.id} className="bg-gray-50 rounded-lg p-6">
+              <div key={review.id} className="bg-gray-50 rounded-lg p-6 flex flex-col h-full">
                 <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center">
                     <div className="flex">
@@ -202,7 +202,7 @@ function Reviews() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Experience It Yourself?</h2>
             <p className="text-gray-600 mb-6">Book an appointment and join our satisfied customers</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:555-123-4567" className="bg-green-600 text-white py-3 px-6 rounded-md hover:bg-green-700 transition">
+              <a href="tel:+13019263638" className="bg-green-600 text-white py-3 px-6 rounded-md hover:bg-green-700 transition">
                 Call to Book
               </a>
               <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" className="bg-[var(--maroon)] text-white py-3 px-6 rounded-md hover:bg-[var(--brown)] transition">

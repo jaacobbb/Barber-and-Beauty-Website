@@ -42,7 +42,7 @@ function FindUs() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">Phone</h3>
-                      <a href="tel:555-123-4567" className="" style={{ color: 'var(--maroon)' }}>(555) 123-4567</a>
+                      <a href="tel:+13019263638" className="" style={{ color: 'var(--maroon)' }}>(301) 926-3638</a>
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900">Email</h3>
@@ -143,7 +143,7 @@ function FindUs() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Ready to Visit?</h2>
             <p className="text-gray-600 mb-6">Book your appointment today or walk in during business hours</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:555-123-4567" className="bg-green-600 text-white py-3 px-6 rounded-md hover:bg-green-700 transition">
+              <a href="tel:+13019263638" className="bg-green-600 text-white py-3 px-6 rounded-md hover:bg-green-700 transition">
                 Call Now
               </a>
               <a href="https://calendly.com/jacoblokheenlee9/30min" target="_blank" rel="noopener noreferrer" className="bg-[var(--maroon)] text-white py-3 px-6 rounded-md hover:bg-[var(--brown)] transition">
